@@ -95,9 +95,7 @@ class MainActivity : Activity() {
         button.text = title
         button.textSize = 16f
         button.setTextColor(Color.WHITE)
-        button.setBackgroundColor(
-            Color.rgb(35, 38, 55)
-        )
+        button.setBackgroundColor(Color.rgb(35, 38, 55))
 
         button.setOnClickListener {
             Toast.makeText(
